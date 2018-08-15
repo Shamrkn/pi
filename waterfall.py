@@ -11,7 +11,7 @@ def setup() :
     for pin in ledPins:
         GPIO.setup(pin, GPIO.OUT)
 
-
+#Test1234
 def loop() :
     while True :
         for pin in ledPins:
